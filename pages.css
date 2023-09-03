@@ -1,0 +1,117 @@
+* { box-sizing: border-box; }
+
+body, html { width: 100%;
+			}
+
+header { background-color: #FFFFFF;
+		color: #00005D;
+		padding: 200px 200px 200px 200px;
+		background-repeat: no-repeat;
+		background-image: url(banner.png);
+		background-size: cover;
+		}
+
+nav, a { background-color: #eba134;
+		color: #FFFFFF;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 150%;
+		}
+
+a:hover { text-decoration: none;
+			color: #777; }
+
+		
+body { background-color: #FFFFFF;
+		font-family: Verdana, Arial, sans-serif;
+		}
+
+h1   { background-color: #FFFFFF;
+		color: #FFFFFF;
+		font-family: Verdana, Arial, sans-serif;
+		padding: 100px;
+		background-image: url(banner2.jpg);
+		background-repeat: repeat;
+		background-size: contain;
+		}
+
+h3, h4, h5 { background-color: #FFFFFF;
+			color: #000000;
+			font-family: Verdana, Arial, sans-serif;
+			}
+
+
+
+p { background-color: #eba134;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;}
+
+span { font-family: Verdana, Arial, sans-serif;
+		font-size: 150%; }
+
+.float-container { border: 10px solid #FFFFFF;
+				 }
+				 
+.float-container2 { border: 5px ridge #eba134; }
+					
+.float-child { width: 50%;
+				float: left;
+				padding: 20px;
+				border: 5px ridge #eba134;
+				background-color: #B7DDE6;
+				}
+.float-child3 { width: 100%;
+				float: left;
+				padding: 20px;
+				border: 5px ridge #eba134;
+				background-color: #B7DDE6;
+				}
+.float-child4 { width: 50%;
+				float: left;
+				padding: 20px;
+				}
+
+.float-child5 { width: 50%;
+				float: right;
+				padding: 20px;
+				}
+
+
+.float-child2 { float: left;
+				width: 100%;
+
+}
+
+.border { border: 5px ridge #000000;
+			border-radius: 10px;
+			background-color: #eba134; }
+			
+.border2 { border: 5px ridge #eba134;
+			border-radius: 10px;
+			background-color: #eba134;}
+			
+.border3 { border: 5px ridge #eba134;
+			border-radius: 10px;}
+			
+.bgcolor{ background-color:#B7DDE6;
+}
+
+.bgcolor2{ background-color:#eba134;
+}
+
+#wrapper {  width: 100%;
+			margin: auto;
+            		
+}
+
+.font { font-size: 100%;}
+
+.banner4 { background-image: url(banner4.jpg);
+	 padding: 100px;
+	 background-repeat: repeat;
+	 background-size: contain;
+}
+
+form { background-color: #eaeaea;   font-family: Arial, sans-serif; padding: 10px;	}
+label { float: left; width: 100px; clear: left; text-align: right;  padding-right: 10px; margin-top: 10px; }
+input, textarea { margin-top: 10px; display: block; } 
+#mySubmit { margin-left: 110px; }
